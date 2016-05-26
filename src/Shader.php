@@ -18,7 +18,7 @@ class Shader
         $this->compileFromString($vertexCode, $fragmentCode);
     }
 
-    public function compileFromString($vertexCode, $shaderCode) {
+    public function compileFromString($vertexCode, $fragmentCode) {
         // Vertex Shader
         $vertex = glCreateShader(GL_VERTEX_SHADER);
         glShaderSource($vertex, 1, $vertexCode, null);
