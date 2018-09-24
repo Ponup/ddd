@@ -1,7 +1,7 @@
 <?php
 namespace Ponup\ddd;
 
-class CameraTest extends \PHPUnit_Framework_TestCase {
+class CameraTest extends \PHPUnit\Framework\TestCase {
 
     public function testCameraDefaultsAreSet() {
         $camera = new Camera;

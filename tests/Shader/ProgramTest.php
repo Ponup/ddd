@@ -1,7 +1,7 @@
 <?php
 namespace Ponup\ddd\Shader;
 
-class ProgramTest extends \PHPUnit_Framework_TestCase {
+class ProgramTest extends \PHPUnit\Framework\TestCase {
 
     public static function setUpBeforeClass() {
         extension_loaded('opengl') || dl('opengl.' . PHP_SHLIB_SUFFIX);
