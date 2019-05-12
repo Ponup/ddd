@@ -16,7 +16,7 @@
         "psr-4": {"Ponup\\ddd\\": "src/"}
     },
     "require-dev": {
-        "phpunit/phpunit": "^6.5"
+        "phpunit/phpunit": "^7.5"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
