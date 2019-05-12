@@ -10,7 +10,7 @@
         }
     ],
     "require": {
-        "ponup/glm": "dev-master"
+        "ponup/glm": "^1.1"
     },
     "autoload": {
         "psr-4": {"Ponup\\ddd\\": "src/"}
